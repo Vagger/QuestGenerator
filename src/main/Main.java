@@ -1,7 +1,7 @@
-import algorithms.IndexMapperAlgorithm;
+package main;
 
-import java.util.ArrayList;
-import java.util.List;
+import main.algorithms.InterpolationAlgorithm;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +14,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        IndexMapperAlgorithm.generateRewards(quests, n);
+//        IndexMapperAlgorithm.generateRewards(quests, n);
+
+        String rewards = InterpolationAlgorithm.generateRewards(n);
 
         sc.close();
 
