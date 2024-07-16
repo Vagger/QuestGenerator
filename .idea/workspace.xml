@@ -65,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720767574647</updated>
       <workItem from="1720767575865" duration="5687000" />
-      <workItem from="1720870328185" duration="2674000" />
+      <workItem from="1720870328185" duration="13519000" />
     </task>
     <servers />
   </component>
@@ -79,6 +79,26 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
