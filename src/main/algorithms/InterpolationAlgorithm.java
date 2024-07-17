@@ -3,9 +3,6 @@ package main.algorithms;
 public class InterpolationAlgorithm {
 
     public static String generateRewards(int n) {
-
-        // build a string based on probabilistic approach
-
         return buildRewards(n);
     }
 
@@ -14,8 +11,17 @@ public class InterpolationAlgorithm {
 
         // define a probabilistic function based on interpolation
         for (int i = 0; i < n; i++) {
-            // todo write a probability function
+            if (getBronzeProbability(i, n) > 0.5) {
+                rewards.append('b');
+            } else {
+                rewards.append('s');
+            }
         }
         return rewards.toString();
     }
+
+    private static double getBronzeProbability(int i, int N) {
+        return 0.5 * (1 + Math.cos(Math.PI * i / N));
+    }
+
 }

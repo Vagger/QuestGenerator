@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95bcb895-386d-4d7b-882a-02e31f46f384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/algorithms/InterpolationAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils/LevensteinDistanceRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/InterpolationAlgorithmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/utils/StringComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/IndexMapperAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithms/IndexMapperAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/algorithms/InterpolationAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithms/InterpolationAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils/LevensteinDistanceRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/LevensteinDistanceRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/InterpolationAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/InterpolationAlgorithmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +69,57 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InterpolationAlgorithmTest.generateRewardsForThreeQuests">
+  <component name="RunManager" selected="JUnit.InterpolationAlgorithmTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="QuestGenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterpolationAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.InterpolationAlgorithmTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterpolationAlgorithmTest.generateRewardsForFiftyQuests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.InterpolationAlgorithmTest" />
+      <option name="METHOD_NAME" value="generateRewardsForFiftyQuests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterpolationAlgorithmTest.generateRewardsForHundredQuests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.InterpolationAlgorithmTest" />
+      <option name="METHOD_NAME" value="generateRewardsForHundredQuests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InterpolationAlgorithmTest" />
         <item itemvalue="JUnit.InterpolationAlgorithmTest.generateRewardsForThreeQuests" />
+        <item itemvalue="JUnit.InterpolationAlgorithmTest.generateRewardsForHundredQuests" />
+        <item itemvalue="JUnit.InterpolationAlgorithmTest.generateRewardsForFiftyQuests" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -113,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720767574647</updated>
       <workItem from="1720767575865" duration="5687000" />
-      <workItem from="1720870328185" duration="19207000" />
+      <workItem from="1720870328185" duration="22564000" />
     </task>
     <servers />
   </component>

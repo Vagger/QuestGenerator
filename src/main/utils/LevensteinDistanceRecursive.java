@@ -39,18 +39,18 @@ public class LevensteinDistanceRecursive {
                 + NumOfReplacement(str1.charAt(0),str2.charAt(0));
 
         // calculate the number of insertions in str1
-        // recursively
-        int insert = compute_Levenshtein_distance(
-                str1, str2.substring(1))+ 1;
-
-        // calculate the number of deletions in str1
-        // recursively
-        int delete = compute_Levenshtein_distance(
-                str1.substring(1), str2)+ 1;
+//        // recursively
+//        int insert = compute_Levenshtein_distance(
+//                str1, str2.substring(1))+ 1;
+//
+//        // calculate the number of deletions in str1
+//        // recursively
+//        int delete = compute_Levenshtein_distance(
+//                str1.substring(1), str2)+ 1;
 
         // returns minimum of three operations
 
-        return minm_edits(replace, insert, delete);
+        return minm_edits(replace/*, insert, delete*/);
     }
 
     static int NumOfReplacement(char c1, char c2)
