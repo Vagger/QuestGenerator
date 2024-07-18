@@ -1,7 +1,6 @@
 package test;
 
 import main.algorithms.InterpolationAlgorithm;
-import main.utils.LevensteinDistanceRecursive;
 import main.utils.StringComparator;
 import org.junit.jupiter.api.Test;
 

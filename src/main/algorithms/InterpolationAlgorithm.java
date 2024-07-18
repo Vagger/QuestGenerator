@@ -21,6 +21,7 @@ public class InterpolationAlgorithm {
     }
 
     private static double getBronzeProbability(int i, int N) {
+        // todo improve
         return 0.5 * (1 + Math.cos(Math.PI * i / N));
     }
 
